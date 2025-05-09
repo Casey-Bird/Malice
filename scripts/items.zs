@@ -78,6 +78,8 @@ import crafttweaker.api.entity.attribute.AttributeModifier;
 <item:voidscape:titanite_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:voidscape:titanite_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
+<item:voidscape:titanite_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "Extra Speed", -0.2, AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+
 
 // Ice & Fire
 
