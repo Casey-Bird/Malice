@@ -5,6 +5,7 @@
 	"min_rarity": "ancient",
 	"dimensions": ["minecraft:the_end"
 	],
+	"unique": true,
 	"bonuses": [{
 			"type": "apotheosis:attribute",
 			"gem_class": {
