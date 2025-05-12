@@ -6,6 +6,7 @@
 	"dimensions": [
 	"minecraft:the_end"
 	],
+	"unique": true,
 	"bonuses": [
 		{
 			"type": "apotheosis:attribute",
