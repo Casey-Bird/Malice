@@ -8,7 +8,6 @@
     "iceandfire:fire_dragon",
     "iceandfire:ice_dragon",
     "iceandfire:lightning_dragon",
-    "botania:doppelganger",
     "aether:sun_spirit",
     "voidscape:null_servant",
     "voidscape:corrupted_pawn",
@@ -22,7 +21,6 @@
     "cataclysm:ignis",
     "cataclysm:maledictus",
     "cataclysm:netherite_monstrosity",
-    "cataclysm:netherite_minstrosity",
     "cataclysm:the_leviathan",
     "cataclysm:the_harbinger",
     "bosses_of_mass_destruction:gauntlet",
@@ -32,7 +30,6 @@
     "aquamirae:captain_cornelia",
     "aquamirae:maze_mother",
     "rats:black_death",
-    "rats:dutch_rat",
     "rats:pied_piper",
     "rats:rat_baron",
     "rats:rat_king"

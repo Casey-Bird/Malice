@@ -27,7 +27,7 @@
 				"rare": 0.25,
 				"epic": 0.35,
 				"mythic": 0.40,
-				"ancient": 0.45
+				"ancient": 0.35
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 				"rare": 0.35,
 				"epic": 0.40,
 				"mythic": 0.475,
-				"ancient": 0.65
+				"ancient": 0.45
 			}
 		},
 		{

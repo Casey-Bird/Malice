@@ -151,6 +151,78 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
+					"command": "curios set an_focus @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set wardrobe @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set ring @s 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set hands @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set belt @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set charm @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set bundle @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set necklace @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set back @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set bracelet @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set brooch @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set an_focus @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
 					"command": "curios set wardrobe @s 0"
 				}
 			},
@@ -3258,7 +3330,7 @@
 	},
 	"prestiege_magic": {
 		"title": "Prestiege",
-		"cost": 1000,
+		"cost": 500,
 		"description": [
 			{
 				"text": "Unlock a Brooch Slot",
@@ -3277,7 +3349,7 @@
 				"color": "white"
 			},
 			{
-				"text": "1000",
+				"text": "500",
 				"color": "green"
 			}
 		],
@@ -3317,7 +3389,7 @@
 	},
 	"prestiege_swordsman": {
 		"title": "Prestiege",
-		"cost": 1000,
+		"cost": 500,
 		"description": [
 			{
 				"text": "Unlock a Hands Slot",
@@ -3336,7 +3408,7 @@
 				"color": "white"
 			},
 			{
-				"text": "1000",
+				"text": "500",
 				"color": "green"
 			}
 		],
@@ -3376,7 +3448,7 @@
 	},
 	"prestiege_hearty": {
 		"title": "Prestiege",
-		"cost": 1000,
+		"cost": 500,
 		"description": [
 			{
 				"text": "Unlock a Belt Slot",
@@ -3395,7 +3467,7 @@
 				"color": "white"
 			},
 			{
-				"text": "1000",
+				"text": "500",
 				"color": "green"
 			}
 		],
@@ -3435,7 +3507,7 @@
 	},
 	"prestiege_archer": {
 		"title": "Prestiege",
-		"cost": 1000,
+		"cost": 500,
 		"description": [
 			{
 				"text": "Unlock a Ring Slot",
@@ -3454,7 +3526,7 @@
 				"color": "white"
 			},
 			{
-				"text": "1000",
+				"text": "500",
 				"color": "green"
 			}
 		],
@@ -3845,6 +3917,51 @@
 				"type": "puffish_skills:command",
 				"data": {
 					"command": "curios add brooch @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"focus": {
+		"title": "Focus",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Focus Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mystery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add an_focus @s 1"
 				}
 			}
 		],

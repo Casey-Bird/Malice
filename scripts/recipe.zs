@@ -18,6 +18,8 @@ import mods.jeitweaker.Jei;
 // Remove recipes for specific items with NBT data
 
 recipes.remove(<item:born_in_chaos_v1:nut_hammer>);
+recipes.remove(<item:terramity:chthonic_curse_bracelets>);
+recipes.remove(<item:terramity:divergency_gauntlet>);
 
 recipes.remove(<item:botania:world_seed>);
 recipes.remove(<item:waystones:warp_stone>);
@@ -164,6 +166,10 @@ recipes.remove(<item:terramity:antimatter_pacemaker>);
 recipes.remove(<item:terramity:antimatter_bomb>);
 recipes.remove(<item:terramity:focus_scarf>);
 
+
+recipes.remove(<item:alexscaves:burrowing_arrow>);
+recipes.remove(<item:alexscaves:nuclear_bomb>);
+
 //Enigmatic Legacy
 
 // Remove the existing recipe for curse_transposer
@@ -188,15 +194,90 @@ craftingTable.addShaped("enigmaticlegacy.enigmatic_elytra", <item:enigmaticlegac
     ]
 );
 
+craftingTable.addShaped("terramity.devils_dice", <item:terramity:devils_dice>,
+    [
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:chthonic_crystal>, <item:terramity:decayed_bedrock_dust>],
+        [<item:terramity:hellspec_alloy>, <item:botania:dice>, <item:terramity:hellspec_alloy>],
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:chthonic_crystal>, <item:terramity:decayed_bedrock_dust>]
+    ]
+);
+
+craftingTable.addShaped("terramity.weighted_die", <item:terramity:weighted_die>,
+    [
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:neutron_star>, <item:terramity:decayed_bedrock_dust>],
+        [<item:terramity:exodium_superalloy>, <item:botania:dice>, <item:terramity:exodium_superalloy>],
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:decayed_bedrock_dust>, <item:terramity:decayed_bedrock_dust>]
+    ]
+);
+
 craftingTable.addShapeless("cracked_microcosm_custom", <item:terramity:cracked_microcosm>, 
 [
     <item:botania:black_hole_talisman>,
     <item:terramity:empty_essence>
 ]);
 
+craftingTable.addShapeless("ancient_metal_from_ore", <item:atlantis:raw_ancient_metal_ingot>, [
+    <item:atlantis:ancient_metal_ore>
+]);
+
+craftingTable.addShapeless("ancient_metal_from_deepslate_ore", <item:atlantis:raw_ancient_metal_ingot>, [
+    <item:atlantis:deepslate_ancient_metal_ore>
+]);
+
 
 
 // Hide removed recipes
+// Terramity - Hide items from JEI
+Jei.hideIngredient(<item:terramity:divergency_gauntlet>);
+Jei.hideIngredient(<item:terramity:ultra_sniffer_fur>);
+Jei.hideIngredient(<item:terramity:ethereal_eclipse_emblem>);
+Jei.hideIngredient(<item:terramity:chthonic_cursemark>);
+Jei.hideIngredient(<item:terramity:chthonic_shell_casing>);
+Jei.hideIngredient(<item:terramity:shinobis_substitute>);
+Jei.hideIngredient(<item:terramity:chthonic_curse_bracelets>);
+Jei.hideIngredient(<item:terramity:gold_medal>);
+Jei.hideIngredient(<item:terramity:planet_buster>);
+Jei.hideIngredient(<item:terramity:eyepatch>);
+Jei.hideIngredient(<item:terramity:anxiety_amulet>);
+Jei.hideIngredient(<item:terramity:blastguard_pendant>);
+Jei.hideIngredient(<item:terramity:exodium_shield_amulet>);
+Jei.hideIngredient(<item:terramity:stillness_scarf>);
+Jei.hideIngredient(<item:terramity:prismatic_scarf>);
+Jei.hideIngredient(<item:terramity:all_seeing_scarf>);
+Jei.hideIngredient(<item:terramity:famine_gauntlet>);
+Jei.hideIngredient(<item:terramity:prismatic_gauntlet>);
+Jei.hideIngredient(<item:terramity:poker_chip_bracelets>);
+Jei.hideIngredient(<item:terramity:exodium_twin_bracelets>);
+Jei.hideIngredient(<item:terramity:sacred_speed_bracelets>);
+Jei.hideIngredient(<item:terramity:giant_sniffers_hoof>);
+Jei.hideIngredient(<item:terramity:daemonium_glass_ring>);
+Jei.hideIngredient(<item:terramity:band_of_power_plus>);
+Jei.hideIngredient(<item:terramity:band_of_power>);
+Jei.hideIngredient(<item:terramity:tearstone_ring>);
+Jei.hideIngredient(<item:terramity:shinobi_sash>);
+Jei.hideIngredient(<item:terramity:fragile_divinity>);
+Jei.hideIngredient(<item:terramity:the_pill>);
+Jei.hideIngredient(<item:terramity:bomb_charm>);
+Jei.hideIngredient(<item:terramity:steel_shell>);
+Jei.hideIngredient(<item:terramity:chthonic_nectar>);
+Jei.hideIngredient(<item:terramity:holy_chalice>);
+Jei.hideIngredient(<item:terramity:forbidden_chalice>);
+Jei.hideIngredient(<item:terramity:projectile_defense_talisman>);
+Jei.hideIngredient(<item:terramity:crest_of_the_void>);
+Jei.hideIngredient(<item:terramity:forbidden_fruit>);
+Jei.hideIngredient(<item:terramity:headhunter_talisman_plus>);
+Jei.hideIngredient(<item:terramity:proximity_badge>);
+Jei.hideIngredient(<item:terramity:sharpening_stone>);
+Jei.hideIngredient(<item:terramity:magma_stone>);
+Jei.hideIngredient(<item:terramity:shadowflame_stone>);
+Jei.hideIngredient(<item:terramity:fateful_coin>);
+Jei.hideIngredient(<item:terramity:lucky_dice>);
+Jei.hideIngredient(<item:terramity:die_of_revival>);
+Jei.hideIngredient(<item:terramity:nullifying_dice>);
+Jei.hideIngredient(<item:terramity:antimatter_pacemaker>);
+Jei.hideIngredient(<item:terramity:antimatter_bomb>);
+Jei.hideIngredient(<item:terramity:focus_scarf>);
+
 
 Jei.hideIngredient(<item:apotheosis:gem_cutting_table>);
 
@@ -224,6 +305,8 @@ Jei.hideIngredient(<item:sons_of_sins:touch_of_greed>);
 Jei.hideIngredient(<item:sons_of_sins:butcher_cleaver>);
 Jei.hideIngredient(<item:sons_of_sins:wistivers_jaws>);
 Jei.hideIngredient(<item:alexsmobs:transmutation_table>);
+Jei.hideIngredient(<item:alexscaves:burrowing_arrow>);
+Jei.hideIngredient(<item:alexscaves:nuclear_bomb>);
 
 Jei.hideIngredient(<item:bosses_of_mass_destruction:earthdive_spear>);
 
@@ -322,7 +405,20 @@ craftingTable.addShaped("apotheosis.sigil_of_socketing", <item:apotheosis:sigil_
     [<item:apotheosis:gem_dust>, <item:minecraft:amethyst_shard>, <item:apotheosis:gem_dust>]
 ]);
 
+// WAYSTONES
+craftingTable.addShaped("waystones.waystone", <item:waystones:waystone>, [
+    [<item:minecraft:air>,  <item:minecraft:stone_bricks>, <item:minecraft:air>],
+    [<item:minecraft:stone_bricks>, <item:minecraft:amethyst_shard>, <item:minecraft:stone_bricks>],
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
+]);
 
+// Iesnium
+craftingTable.addShapeless("occultism.iesnium_dust", <item:occultism:iesnium_dust>, [
+    <item:occultism:gold_dust>,
+    <item:minecraft:nether_wart>,
+    <item:minecraft:nether_wart>,
+    <item:occultism:gold_dust>
+]);
 // Vampirism
 
 craftingTable.addShaped("vampirism.vampire_fang", <item:vampirism:vampire_fang>, [
@@ -594,7 +690,6 @@ events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>(event => {
 
 
 // });
-
 
 
 

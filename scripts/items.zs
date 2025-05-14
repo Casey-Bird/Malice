@@ -378,24 +378,86 @@ AttributeModifier.create("Starbuncle Thread", -0.2, AttributeOperation.MULTIPLY_
 
 <item:terramity:devastation>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
+//Irons Spells
+// Scarecrow
+<item:irons_spellbooks:pumpkin_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:pumpkin_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:pumpkin_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:pumpkin_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Pyromancer
+<item:irons_spellbooks:pyromancer_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:pyromancer_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:pyromancer_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:pyromancer_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Electromancer
+<item:irons_spellbooks:electromancer_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:electromancer_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:electromancer_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:electromancer_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Archevoker
+<item:irons_spellbooks:archevoker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:archevoker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:archevoker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:archevoker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Cultist
+<item:irons_spellbooks:cultist_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:cultist_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:cultist_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:cultist_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Cryomancer
+<item:irons_spellbooks:cryomancer_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:cryomancer_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:cryomancer_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:cryomancer_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+
+// Shadowwalker
+<item:irons_spellbooks:shadowwalker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:shadowwalker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:shadowwalker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:shadowwalker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Priest
+<item:irons_spellbooks:priest_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:priest_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:priest_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:priest_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Plagued
+<item:irons_spellbooks:plagued_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:plagued_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:plagued_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:plagued_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+// Netherite
+<item:irons_spellbooks:netherite_mage_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:irons_spellbooks:netherite_mage_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:irons_spellbooks:netherite_mage_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:irons_spellbooks:netherite_mage_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "Reduce Armour", -1, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+
+
+
+
+
 
 //TravelOptics
 // Abyssal Hide Armor
-<item:traveloptics:abyssal_hide_armor_hat>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:traveloptics:abyssal_hide_armor_robe>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:traveloptics:abyssal_hide_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:traveloptics:abyssal_hide_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:traveloptics:abyssal_hide_armor_hat>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Armour", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:traveloptics:abyssal_hide_armor_robe>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Armour", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:traveloptics:abyssal_hide_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Armour", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:traveloptics:abyssal_hide_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Armour", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
 // Cursed Wraithguard Armor
 <item:traveloptics:cursed_wraithguard_crown>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:traveloptics:cursed_wraithguard_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:traveloptics:cursed_wraithguard_spectral_wrapping>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:traveloptics:cursed_wraithguard_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-
-<item:traveloptics:cursed_wraithblade>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_one>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_two>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_three>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
 // Primordial Crest Armor
 <item:traveloptics:primordial_crest_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);

@@ -407,7 +407,7 @@
     I:CursedScrollMiningBoost=3
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollRegenBoost=5
+    I:CursedScrollRegenBoost=1
 
     # The chance for Heart of the Earth to be obtained from suspicious blocks (default is 3%). [range: 0.0 ~ 32768.0, default: 0.03, synchronized: yes]
     D:CustomLootEarthHeartChance=0.03

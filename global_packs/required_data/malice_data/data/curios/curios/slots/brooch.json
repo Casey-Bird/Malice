@@ -1,5 +1,9 @@
+
 {
-  "add_cosmetic": true,
-  "icon": "malum:slot/empty_brooch_slot",
-  "size": 0
+	"replace": true,
+	"size": 1,
+	"operation": "REMOVE",
+	"order": 33,
+
+  "icon": "malum:slot/empty_brooch_slot"
 }

@@ -3,7 +3,7 @@
     "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "forge-47.2.30",
+        "id": "forge-47.3.33",
         "primary": true
       }
     ]
@@ -14,6 +14,21 @@
   "version": "1.4",
   "author": "Maven",
   "files": [ 
+    {
+      "projectID": 479134,
+      "fileID": 6293591,
+      "required": true
+    },
+    {
+      "projectID": 416294,
+      "fileID": 6186971,
+      "required": true
+    },
+    {
+      "projectID": 238086,
+      "fileID": 5853326,
+      "required": true
+    },
   {
       "projectID": 633823,
       "fileID": 5517426,
@@ -125,8 +140,8 @@
       "required": false
     },
     {
-      "projectID": 485779,
-      "fileID": 5516354,
+      "projectID": 910657,
+      "fileID": 5272211,
       "required": true
     },
     {
@@ -556,7 +571,7 @@
     },
     {
       "projectID": 465109,
-      "fileID": 5958619,
+      "fileID": 6362613,
       "required": true
     },
     {
@@ -811,7 +826,7 @@
     },
     {
       "projectID": 405076,
-      "fileID": 6145747,
+      "fileID": 6504759,
       "required": true
     },
     {
@@ -891,7 +906,7 @@
     },
     {
       "projectID": 289466,
-      "fileID": 5317155,
+      "fileID": 6414270,
       "required": true
     },
     {
@@ -1272,6 +1287,16 @@
     {
       "projectID": 225738,
       "fileID": 5737040,
+      "required": true
+    },
+    {
+      "projectID": 479134,
+      "fileID": 6293591,
+      "required": true
+    },
+    {
+      "projectID": 910657,
+      "fileID": 5272211,
       "required": true
     }
   ],

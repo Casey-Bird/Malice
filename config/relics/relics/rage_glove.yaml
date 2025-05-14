@@ -2,7 +2,8 @@ abilitiesData:
     abilities:
         rage:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 1
+
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
@@ -32,7 +33,7 @@ abilitiesData:
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     maxThresholdValue: 1.7976931348623157E308
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
-                    minInitialValue: 0.05
+                    minInitialValue: 0.03
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
                     minThresholdValue: 4.9E-324
                     # Modifier applied to the base value of the stat, depending on the [upgradeOperation] parameter.
@@ -64,7 +65,7 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
         phlebotomy:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 5
             # Relic level at which the ability becomes unlocked
             requiredLevel: 5
             # Number of leveling points needed to increase the ability level

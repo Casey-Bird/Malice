@@ -307,8 +307,8 @@
 	},
 	"h9ud8dprfqqore0x": {
 		"definition": "missile",
-		"x": -400,
-		"y": -200,
+		"x": -416,
+		"y": -192,
 		"root": false
 	},
 	"7t0pyknhcevytpyr": {
@@ -2812,5 +2812,11 @@
 		"x": 1664,
 		"y": -32,
 		"root": false
+	},
+	"qw7734y7l8u8g426": {
+		"definition": "focus",
+		"x": 1152,
+		"y": 384,
+		"root": true
 	}
 }

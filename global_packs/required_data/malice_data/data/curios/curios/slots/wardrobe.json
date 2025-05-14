@@ -1,5 +1,9 @@
+
 {
-  "add_cosmetic": true,
-  "icon": "portablewardrobearmorswap:slot/baubleslot",
-  "size": 0
+	"replace": true,
+	"size": 1,
+	"operation": "REMOVE",
+	"order": 33,
+
+  "icon": "portablewardrobearmorswap:slot/baubleslot"
 }
