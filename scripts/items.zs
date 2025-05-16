@@ -14,6 +14,7 @@ import crafttweaker.api.entity.attribute.AttributeModifier;
 <item:minecraft:splash_potion>.maxStackSize = 16;
 <item:minecraft:lingering_potion>.maxStackSize = 16;
 <item:mality:horror_element>.maxStackSize = 64;
+<item:terramity:occult_fabric>.maxStackSize = 1;
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
