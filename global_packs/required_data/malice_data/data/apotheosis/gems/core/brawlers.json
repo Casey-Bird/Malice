@@ -3,6 +3,7 @@
 	"weight": 0,
 	"quality": 1.5,
 	"min_rarity": "ancient",
+	"unique": true,
 	"dimensions": ["minecraft:the_end"
 	],
 	"bonuses": [
